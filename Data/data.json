@@ -1,0 +1,603 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "The Gourmet Kitchen",
+      "description": "A fine dining experience with international cuisine.",
+      "location": "123 Main St, New York, NY 10001",
+      "category": "Fine Dining",
+      "rating": "4.8",
+      "serves": "veg",
+      "menu": [
+        {
+          "name": "Steak Au Poivre",
+          "price": "29.99"
+        },
+        {
+          "name": "Lobster Bisque",
+          "price": "19.99"
+        },
+        {
+          "name": "Caesar Salad",
+          "price": "12.99"
+        },
+        {
+          "name": "Tiramisu",
+          "price": "8.99"
+        },
+        {
+          "name": "Wine Selection",
+          "price": "45.00"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Pasta Paradise",
+      "description": "Delicious Italian pasta dishes made from scratch.",
+      "location": "789 Lakeview Dr, Chicago, IL 60605",
+      "category": "Italian",
+      "rating": "3.6",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Spaghetti Carbonara",
+          "price": "16.99"
+        },
+        {
+          "name": "Fettuccine Alfredo",
+          "price": "15.99"
+        },
+        {
+          "name": "Margherita Pizza",
+          "price": "13.99"
+        },
+        {
+          "name": "Bruschetta",
+          "price": "7.99"
+        },
+        {
+          "name": "Tiramisu",
+          "price": "8.99"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "BBQ Nation",
+      "description": "A paradise for BBQ lovers with a wide range of grilled meats.",
+      "location": "321 Sunset Rd, Austin, TX 73301",
+      "category": "Barbecue",
+      "rating": "4.5",
+      "serves": "non-veg",
+      "menu": [
+        {
+          "name": "Baby Back Ribs",
+          "price": "24.99"
+        },
+        {
+          "name": "Pulled Pork Sandwich",
+          "price": "14.99"
+        },
+        {
+          "name": "Grilled Chicken Wings",
+          "price": "12.99"
+        },
+        {
+          "name": "Coleslaw",
+          "price": "5.99"
+        },
+        {
+          "name": "BBQ Sauce",
+          "price": "3.99"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Taco Fiesta",
+      "description": "A lively Mexican eatery with a festive atmosphere.",
+      "location": "654 Fiesta Ave, San Diego, CA 92101",
+      "category": "Mexican",
+      "rating": "2.8",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Carne Asada Tacos",
+          "price": "11.99"
+        },
+        {
+          "name": "Chicken Burrito",
+          "price": "10.99"
+        },
+        {
+          "name": "Churros",
+          "price": "4.99"
+        },
+        {
+          "name": "Quesadilla",
+          "price": "8.99"
+        },
+        {
+          "name": "Guacamole",
+          "price": "5.99"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Curry Corner",
+      "description": "Authentic Indian curries and tandoori specialties.",
+      "location": "987 Spice St, Houston, TX 77002",
+      "category": "Indian",
+      "rating": "4.7",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Chicken Tikka Masala",
+          "price": "17.99"
+        },
+        {
+          "name": "Paneer Butter Masala",
+          "price": "16.99"
+        },
+        {
+          "name": "Naan Bread",
+          "price": "3.99"
+        },
+        {
+          "name": "Biryani",
+          "price": "14.99"
+        },
+        {
+          "name": "Gulab Jamun",
+          "price": "5.99"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Green Leaf",
+      "description": "A vegan and vegetarian restaurant with fresh, organic options.",
+      "location": "123 Garden Ln, Portland, OR 97201",
+      "category": "Vegan/Vegetarian",
+      "rating": "4.8",
+      "serves": "veg",
+      "menu": [
+        {
+          "name": "Kale Caesar Salad",
+          "price": "12.99"
+        },
+        {
+          "name": "Vegan Burger",
+          "price": "13.99"
+        },
+        {
+          "name": "Quinoa Bowl",
+          "price": "14.99"
+        },
+        {
+          "name": "Smoothies",
+          "price": "7.99"
+        },
+        {
+          "name": "Vegan Brownie",
+          "price": "5.99"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Burger Bonanza",
+      "description": "Gourmet burgers made with premium ingredients.",
+      "location": "456 Strip Rd, Las Vegas, NV 89109",
+      "category": "American",
+      "rating": "4.6",
+      "serves": "non-veg",
+      "menu": [
+        {
+          "name": "Classic Cheeseburger",
+          "price": "15.99"
+        },
+        {
+          "name": "Bacon Avocado Burger",
+          "price": "17.99"
+        },
+        {
+          "name": "Truffle Fries",
+          "price": "8.99"
+        },
+        {
+          "name": "Onion Rings",
+          "price": "6.99"
+        },
+        {
+          "name": "Milkshakes",
+          "price": "5.99"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Dim Sum Delights",
+      "description": "Traditional Chinese dim sum with a modern twist.",
+      "location": "789 Chinatown Pl, San Francisco, CA 94108",
+      "category": "Chinese",
+      "rating": "4.7",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Pork Dumplings",
+          "price": "9.99"
+        },
+        {
+          "name": "Steamed Buns",
+          "price": "8.99"
+        },
+        {
+          "name": "Spring Rolls",
+          "price": "6.99"
+        },
+        {
+          "name": "Fried Rice",
+          "price": "11.99"
+        },
+        {
+          "name": "Peking Duck",
+          "price": "22.99"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Mediterranean Magic",
+      "description": "Healthy and flavorful Mediterranean cuisine.",
+      "location": "321 Ocean Dr, Miami, FL 33139",
+      "category": "Mediterranean",
+      "rating": "4.5",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Falafel Platter",
+          "price": "13.99"
+        },
+        {
+          "name": "Shawarma Wrap",
+          "price": "14.99"
+        },
+        {
+          "name": "Hummus with Pita",
+          "price": "7.99"
+        },
+        {
+          "name": "Grilled Kebabs",
+          "price": "17.99"
+        },
+        {
+          "name": "Baklava",
+          "price": "5.99"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Smoothie Haven",
+      "description": "A refreshing variety of smoothies and healthy snacks.",
+      "location": "123 Wellness St, Seattle, WA 98101",
+      "category": "Healthy",
+      "rating": "4.3",
+      "serves": "veg",
+      "menu": [
+        {
+          "name": "Green Detox Smoothie",
+          "price": "8.99"
+        },
+        {
+          "name": "Berry Blast Smoothie",
+          "price": "9.99"
+        },
+        {
+          "name": "Avocado Toast",
+          "price": "10.99"
+        },
+        {
+          "name": "Protein Bars",
+          "price": "4.99"
+        },
+        {
+          "name": "Acai Bowl",
+          "price": "12.99"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Pizza Perfection",
+      "description": "Artisanal pizzas with a variety of gourmet toppings.",
+      "location": "789 Pizza Blvd, Brooklyn, NY 11201",
+      "category": "Italian",
+      "rating": "4.9",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Margherita Pizza",
+          "price": "14.99"
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "price": "15.99"
+        },
+        {
+          "name": "Truffle Pizza",
+          "price": "18.99"
+        },
+        {
+          "name": "Garlic Knots",
+          "price": "5.99"
+        },
+        {
+          "name": "Tiramisu",
+          "price": "8.99"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Sushi Sensation",
+      "description": "Fresh and innovative sushi rolls and sashimi.",
+      "location": "123 Ocean Ave, Miami, FL 33139",
+      "category": "Japanese",
+      "rating": "4.8",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "California Roll",
+          "price": "12.99"
+        },
+        {
+          "name": "Spicy Tuna Roll",
+          "price": "13.99"
+        },
+        {
+          "name": "Dragon Roll",
+          "price": "16.99"
+        },
+        {
+          "name": "Miso Soup",
+          "price": "4.99"
+        },
+        {
+          "name": "Sashimi Platter",
+          "price": "24.99"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Steakhouse Supreme",
+      "description": "Premium cuts of steak grilled to perfection.",
+      "location": "456 Prime St, Dallas, TX 75201",
+      "category": "Steakhouse",
+      "rating": "4.7",
+      "serves": "non-veg",
+      "menu": [
+        {
+          "name": "Ribeye Steak",
+          "price": "32.99"
+        },
+        {
+          "name": "Filet Mignon",
+          "price": "38.99"
+        },
+        {
+          "name": "Grilled Asparagus",
+          "price": "7.99"
+        },
+        {
+          "name": "Mashed Potatoes",
+          "price": "5.99"
+        },
+        {
+          "name": "Chocolate Lava Cake",
+          "price": "9.99"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Seafood Shack",
+      "description": "A coastal experience with fresh seafood dishes.",
+      "location": "789 Seaside Rd, Miami Beach, FL 33139",
+      "category": "Seafood",
+      "rating": "4.6",
+      "serves": "non-veg",
+      "menu": [
+        {
+          "name": "Grilled Lobster",
+          "price": "29.99"
+        },
+        {
+          "name": "Fried Calamari",
+          "price": "14.99"
+        },
+        {
+          "name": "Clam Chowder",
+          "price": "9.99"
+        },
+        {
+          "name": "Fish Tacos",
+          "price": "12.99"
+        },
+        {
+          "name": "Key Lime Pie",
+          "price": "7.99"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Ramen Republic",
+      "description": "A cozy spot offering a variety of ramen bowls.",
+      "location": "321 Noodle St, Los Angeles, CA 90012",
+      "category": "Japanese",
+      "rating": "4.4",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Tonkotsu Ramen",
+          "price": "13.99"
+        },
+        {
+          "name": "Shoyu Ramen",
+          "price": "12.99"
+        },
+        {
+          "name": "Miso Ramen",
+          "price": "12.99"
+        },
+        {
+          "name": "Gyoza",
+          "price": "7.99"
+        },
+        {
+          "name": "Mochi Ice Cream",
+          "price": "5.99"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Tapas Terrace",
+      "description": "Spanish tapas and small plates in a vibrant setting.",
+      "location": "654 Fiesta Ave, San Diego, CA 92101",
+      "category": "Spanish",
+      "rating": "4.2",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Patatas Bravas",
+          "price": "6.99"
+        },
+        {
+          "name": "Gambas al Ajillo",
+          "price": "9.99"
+        },
+        {
+          "name": "Chorizo",
+          "price": "8.99"
+        },
+        {
+          "name": "Paella",
+          "price": "18.99"
+        },
+        {
+          "name": "Crema Catalana",
+          "price": "6.99"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Crepe Corner",
+      "description": "Sweet and savory crepes in a charming cafe.",
+      "location": "987 Maple St, San Francisco, CA 94108",
+      "category": "French",
+      "rating": "4.5",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Nutella Crepe",
+          "price": "8.99"
+        },
+        {
+          "name": "Ham and Cheese Crepe",
+          "price": "10.99"
+        },
+        {
+          "name": "Strawberry Banana Crepe",
+          "price": "9.99"
+        },
+        {
+          "name": "Espresso",
+          "price": "3.99"
+        },
+        {
+          "name": "Croissant",
+          "price": "4.99"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Fusion Feast",
+      "description": "Innovative fusion cuisine blending flavors from around the world.",
+      "location": "456 Harmony Rd, Austin, TX 73301",
+      "category": "Fusion",
+      "rating": "4.7",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Korean BBQ Tacos",
+          "price": "12.99"
+        },
+        {
+          "name": "Thai Basil Chicken",
+          "price": "13.99"
+        },
+        {
+          "name": "Sushi Burrito",
+          "price": "15.99"
+        },
+        {
+          "name": "Poke Bowl",
+          "price": "14.99"
+        },
+        {
+          "name": "Mango Sticky Rice",
+          "price": "7.99"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Deli Delight",
+      "description": "Classic deli sandwiches and fresh salads.",
+      "location": "123 Sandwich Ave, New York, NY 10001",
+      "category": "Deli",
+      "rating": "4.3",
+      "serves": "both",
+      "menu": [
+        {
+          "name": "Reuben Sandwich",
+          "price": "12.99"
+        },
+        {
+          "name": "Turkey Club",
+          "price": "11.99"
+        },
+        {
+          "name": "Caesar Salad",
+          "price": "10.99"
+        },
+        {
+          "name": "Potato Salad",
+          "price": "4.99"
+        }
+      ]
+    },
+    {
+      "id": "9743",
+      "name": "Sample Resturant",
+      "description": "Dhaba styled restaurant",
+      "location": "MG Road, Mumbai",
+      "category": "Indian",
+      "serves": "veg",
+      "menu": [
+        {
+          "name": "Paneer butter masala",
+          "price": "250"
+        }
+      ]
+    }
+  ]
+}
